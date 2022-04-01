@@ -1,6 +1,9 @@
-import {useTime} from '../client/hooks/api/time';
+import {PageConfig} from 'next';
+
+export const config: PageConfig = {
+	unstable_runtimeJS: false,
+};
 
 export default function Home() {
-	const {data: {time} = {time: Date.now()}} = useTime();
-	return <div>{time}</div>;
+	return <>{Date.now()}</>;
 }

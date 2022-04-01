@@ -16,7 +16,8 @@
 		"jsx": "preserve",
 		"incremental": true,
 		"noImplicitOverride": true,
-		"noImplicitThis": true
+		"noImplicitThis": true,
+		"useUnknownInCatchVariables": true
 	},
 	"exclude": ["node_modules"],
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
