@@ -1,7 +1,7 @@
-# next-boilerplate
+# nextcord
 
-It's quick, fast, easy to use. Strict eslint/typescript, prettier setup.
+TypeScript serverless Discord bot using Next.js
 
-i'll update it every now and then but no guarantee dependencies will work.
+## Get Started
 
-have fun x
+View source code under `src/pages/api/interaction.ts` and start from there. Environment variables are validated and required at runtime.
